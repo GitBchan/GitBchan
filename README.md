@@ -54,7 +54,7 @@
 
 ---
 
-### ClassForge – 실시간 퀴즈 및 AI 학습 지원 플랫폼
+### ClassForge – 실시간 퀴즈 및 AI 학습 지원 플랫폼(진행중)
 **Spring Boot · Kafka · Redis · PostgreSQL · Docker**
 
 - 실시간 퀴즈 진행 및 자동 채점 시스템 개발  
