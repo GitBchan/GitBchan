@@ -7,7 +7,7 @@
 ---
 
 ## About Me
-- 컴퓨터공학 전공 (2025 졸업 예정)
+- 컴퓨터공학 전공 (2026 졸업 예정)
 - 서비스 구조의 타당성을 스스로 검증하며 설계하는 것을 중요하게 생각합니다
 - 비동기 처리, 트랜잭션 정합성, 캐싱 전략, 분산 락 등 안정적인 백엔드 시스템 구축에 관심이 많습니다
 - 복잡한 도메인을 구조화하고, 데이터 흐름을 명확히 정의하는 작업을 선호합니다
@@ -32,7 +32,7 @@
 ### Infra & DevOps
 - Kafka  
 - Docker, Docker Compose  
-- AWS (EC2, RDS, S3, ALB, IAM)  
+- AWS (EC2, RDS, VPC, S3, ALB, IAM, CodeDeploy)
 - GitHub Actions(CI/CD)
 
 ### 기타
