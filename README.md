@@ -52,17 +52,7 @@
 - Redisson 기반 분산 락 및 멱등 처리로 중복 제출 문제 해결  
 - Redis 캐싱을 통해 응답 속도 향상 및 서버 부하 감소  
 
----
 
-### ClassForge – 실시간 퀴즈 및 AI 학습 지원 플랫폼(진행중)
-**Spring Boot · Kafka · Redis · PostgreSQL · Docker**
-
-- 실시간 퀴즈 진행 및 자동 채점 시스템 개발  
-- Kafka 기반 채점 파이프라인 구성 및 비동기 이벤트 처리  
-- Redis 기반 초안 저장·자동 제출 기능 구현  
-- QuizSession, Submission, Answer 등 복잡한 도메인 모델링 경험  
-
----
 
 ## Portfolio
 - Notion Portfolio: https://www.notion.so/Portfolio-276584dae453806fb09de26f8c4b56f5
