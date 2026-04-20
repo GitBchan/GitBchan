@@ -52,6 +52,14 @@
 - Redisson 기반 분산 락 및 멱등 처리로 중복 제출 문제 해결  
 - Redis 캐싱을 통해 응답 속도 향상 및 서버 부하 감소  
 
+### TradingGate – 이벤트 기반 거래 처리 및 정산 시스템 (Backend)
+**Spring Boot · Kafka · MySQL · Redis · Docker · k6**
+
+- 주문 접수부터 체결, 원장 기록, 잔고 반영, 정산·대사까지 이어지는 거래 처리 흐름 구현
+- ledger_entry를 Single Source of Truth로 설계하고, 잔고는 조회용 Projection으로 분리
+- Kafka 기반 이벤트 처리 구조로 매칭, 체결, 잔고 반영 책임을 서비스 단위로 분리
+- snapshot/watermark 기반 정산 배치와 대사 로직으로 데이터 정합성 검증
+- k6 부하 테스트와 대량 정산 검증을 통해 시스템 안정성 확인
 
 
 ## Portfolio
